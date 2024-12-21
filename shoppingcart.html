@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اپل</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="../icons/boxicons-2.1.4/svg/logos/bxl-apple.svg" type="image/x-icon">
+   
+</head>
+<body>
+
+<header class="apple-header">
+    <nav class="apple-nav">
+        <!-- ناوبری سمت چپ -->
+        <ul class="nav-left">
+            <li><a href="#">فروشگاه</a></li>
+            <li class="dropdown">
+                <a href="#">مک</a>
+                <div class="dropdown-content">
+                    <a href="#">مک‌بوک ایر</a>
+                    <a href="#">مک‌بوک پرو</a>
+                    <a href="#">آیمک</a>
+                    <div class="submenu">
+                        <a href="#">مک پرو</a>
+                        <a href="#">مک مینی</a>
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">آیپد</a>
+                <div class="dropdown-content">
+                    <a href="#">آیپد پرو</a>
+                    <a href="#">آیپد ایر</a>
+                    <a href="#">آیپد مینی</a>
+                    <div class="submenu">
+                        <a href="#">قلم هوشمند</a>
+                        <a href="#">کیبورد هوشمند</a>
+                    </div>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">آیفون</a>
+                <div class="dropdown-content">
+                    <a href="../productpage/iphone16/index.html">آیفون 16</a>
+                    <a href="#">آیفون 15</a>
+                    <a href="#">آیفون SE</a>
+                </div>
+            </li>
+            <li><a href="#">ساعت</a></li>
+            <li><a href="#">ایرپادها</a></li>
+            <li><a href="#">تلویزیون و خانه</a></li>
+        </ul>
+
+        <!-- لوگو -->
+        <div class="logo">
+            <a href="#"><img src="../icons/boxicons-2.1.4/svg/logos/bxl-apple.svg" alt="لوگوی اپل"></a>
+        </div>
+
+        <!-- ناوبری سمت راست -->
+        <ul class="nav-right">
+            <li><a href="../support/index.html" target="_blank">پشتیبانی</a></li>
+            <li><a href="#" class="search-icon"><img src="../icons/boxicons-2.1.4/svg/regular/bx-search.svg" alt="آیکون جستجو"></a></li>
+            <li><a href="#" class="cart-icon"><img src="../icons/boxicons-2.1.4/svg/solid/bxs-cart-add.svg" alt="آیکون سبد خرید"></a></li>
+            <li><a href="../accountpage/account.html" target="_blank" class="account-icon"><img src="../icons/boxicons-2.1.4/svg/regular/bx-male.svg" alt="آیکون حساب کاربری"></a></li>
+            <li><a href="../login/login.html" target="_blank">ورود</a></li>
+        </ul>
+
+        <!-- دکمه منوی موبایل -->
+        <div class="menu-toggle">
+            <img src="../icons/boxicons-2.1.4/svg/logos/bxl-medium-square.svg" alt="دکمه منو">
+        </div>
+    </nav>
+</header>
+<div class="shopping-cart">
+    <h2>سبد خرید شما</h2>
+    
+ <!-- Cart Items -->
+ <div class="cart-items">
+    <div class="cart-item">
+      <img src="./images/2.jpg" alt="محصول 1" class="cart-item-image">
+      <div class="cart-item-details">
+        <h3 class="cart-item-name">
+            ساعت هوشمند اپل مدل Series 10 42mm Aluminum  </h3>
+        <p class="cart-item-price">قیمت واحد: 25,990,000 تومان</p>
+        <div class="cart-item-quantity">
+          <label for="quantity1">تعداد:</label>
+          <input type="number" id="quantity1" value="1" min="1">
+        </div>
+        <p class="cart-item-total">قیمت کل: 26,000,000 تومان</p>
+      </div>
+      <button class="remove-item-btn">حذف</button>
+    </div>
+
+    <div class="cart-item">
+      <img src="./images/1.jpg" alt="محصول 2" class="cart-item-image">
+      <div class="cart-item-details">
+        <h3 class="cart-item-name"> airpods 4 </h3>
+        <p class="cart-item-price">قیمت واحد: 12,500,000 تومان</p>
+        <div class="cart-item-quantity">
+          <label for="quantity2">تعداد:</label>
+          <input type="number" id="quantity2" value="1" min="1">
+        </div>
+        <p class="cart-item-total">قیمت کل: 12,500,000 تومان</p>
+      </div>
+      <button class="remove-item-btn">حذف</button>
+    </div>
+  </div>
+
+  <!-- Order Summary -->
+  <div class="order-summary">
+    <h3>خلاصه سفارش</h3>
+    <p class="summary-total">جمع کل: 5,500,000 تومان</p>
+    <p class="summary-discount">تخفیف: 500,000 تومان</p>
+    <p class="summary-final"><strong>هزینه نهایی: 4,500,000 تومان</strong></p>
+    <button class="checkout-btn">ادامه خرید</button>
+  </div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>درباره ما</h4>
+            <ul>
+                <li><a href="#">تاریخچه شرکت</a></li>
+                <li><a href="#">تیم ما</a></li>
+                <li><a href="#">فرصت‌های شغلی</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>خدمات</h4>
+            <ul>
+                <li><a href="#">پشتیبانی مشتریان</a></li>
+                <li><a href="#">سوالات متداول</a></li>
+                <li><a href="#">راهنمای خرید</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>شبکه‌های اجتماعی</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/"><img src="../icons/boxicons-2.1.4/svg/logos/bxl-facebook-circle.svg" alt="فیسبوک"></a>
+                <a href="https://x.com/i/flow/login?lang=en"><img src="../icons/boxicons-2.1.4/svg/logos/bxl-twitter.svg" alt="توییتر"></a>
+                <a href="https://www.instagram.com/accounts/login/"><img src="../icons/boxicons-2.1.4/svg/logos/bxl-instagram.svg" alt="لینکداین"></a><a href="https://www.linkedin.com/"><img src="../icons/boxicons-2.1.4/svg/logos/bxl-linkedin-square.svg" alt="فیسبوک"></a><a href="https://www.youtube.com/"><img src="../icons/boxicons-2.1.4/svg/logos/bxl-youtube.svg" alt="یوتیوب"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 همه حقوق محفوظ امیرمحمد شکوری و روژین علیپور است.</p>
+    </div>
+</footer>
+<script src="scripts.js"></script>
+
+</body>
+</html>
